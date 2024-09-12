@@ -8,15 +8,25 @@
 </head>
 <body>
     <div class="container">
-        <h2>Create Class</h2>
-        <label for="semister">Semister:</label>
-        <input type="text" name="semister" id="">
-        <label for="section">Section:</label>
-        <input type="text" name="section" id="">
-        <label for="subject">Subject:</label>
-        <input type="text" name="subject" id="">
-        <label for="coursecode">Course Code</label>
-        <input type="text" name="coursecode" id="">
+        <div class="header">
+            <h2>Create Class</h2>
+        </div>
+        <div class="semister">
+            <label for="semister">Semister:</label>
+            <input type="text" name="semister" id=""  required>
+        </div>
+        <div class="section">
+            <label for="section">Section:</label>
+            <input type="text" name="section" id=""  required>
+        </div>
+        <div class="subject">
+            <label for="subject">Course:</label>
+            <input type="text" name="subject" id="" required >
+        </div>
+        <div class="coursecode">
+            <label for="coursecode">Course Code:</label>
+            <input type="text" name="coursecode" id=""  required>
+        </div>
         <a href="../Components/assignstudents.html"><button>Create</button></a>
     </div>
 </body>

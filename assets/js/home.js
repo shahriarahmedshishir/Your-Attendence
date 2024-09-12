@@ -1,3 +1,4 @@
+// Home starts here
 // top bar starts here
 let profile__img = document.querySelector(".profile-img");
 let icon__img = document.querySelector(".icon-img");
@@ -36,7 +37,7 @@ let class__btn = document.querySelector(".class-btn");
 let dash__btn = document.querySelector(".dash-btn");
 let repo__btn = document.querySelector(".repo-btn");
 let about__btn = document.querySelector(".about-btn");
-let Universal__btn = document.querySelector(".uni-btn");
+let take_atten_btn = document.querySelector(".take-attendence-btn");
 
 
 home__btn.addEventListener("click",()=>{ 
@@ -111,3 +112,23 @@ Classes.style.left = "-100%";
 Reports.style.left = 0;
 })
 
+take_atten_btn.addEventListener("click",()=>{
+home__btn.style.backgroundColor = "white";
+class__btn.style.backgroundColor = "#2498c9";
+dash__btn.style.backgroundColor = "white";
+repo__btn.style.backgroundColor = "white";
+about__btn.style.backgroundColor = "white";
+home__btn.style.color = "black";
+class__btn.style.color = "white";
+dash__btn.style.color = "black";
+repo__btn.style.color = "black";
+about__btn.style.color = "black";
+
+Home.style.left = "-100%";
+Classes.style.left = 0;
+Dashboard.style.left = "100%";
+Reports.style.left = "200%";
+})
+
+
+// Home ends here
